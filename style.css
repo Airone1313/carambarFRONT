@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff200; /* Couleur de fond jaune pour le container */
+    border: 2px solid #d9004c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #d9004c;
+}
+
+#joke {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#carambarImage {
+    width: 50px; 
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #d9004c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b8003d;
+}
+
+footer {
+    margin-top: 20px;
+    color: #333;
+}
